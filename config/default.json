@@ -1,0 +1,18 @@
+{
+  "servers": [
+    {
+      "id": "github-server",
+      "name": "GitHub Integration Server",
+      "url": "stdio://npx @modelcontextprotocol/server-github",
+      "description": "MCP server for GitHub operations"
+    },
+    {
+      "id": "calendar-server", 
+      "name": "Calendar Server",
+      "url": "http://localhost:8000/sse",
+      "description": "Personal calendar integration"
+    }
+  ],
+  "auto_refresh": true,
+  "refresh_rate": 5
+}
